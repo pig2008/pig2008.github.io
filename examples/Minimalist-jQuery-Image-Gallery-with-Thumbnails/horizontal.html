@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+
+<title>jQuery Simple Image Gallery Horizontal Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="demo.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./src/simplegallery.demo2.min.css" />
+<script type="text/javascript" src="./src/simplegallery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $('#gallery').simplegallery({
+            galltime : 400,
+            gallcontent: '.content',
+            gallthumbnail: '.thumbnail',
+            gallthumb: '.thumb'
+        });
+
+        $('a.goback').click(function(){
+            window.history.back();
+            return false;
+        });
+
+    });
+</script>
+
+</head>
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/gallery/Minimalist-jQuery-Image-Gallery-with-Thumbnails.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <section id="main">
+
+        <header class="header">
+            <h1> Horizontal Layout Demo</h1>
+        </header>
+
+        <div class="clear"></div>
+
+        <section id="gallery" class="simplegallery">
+
+            <div class="content">
+                <img src="images/bigs/1.jpg" class="image_1" alt="" />
+                <img src="images/bigs/2.jpg" class="image_2" style="display:none" alt="" />
+                <img src="images/bigs/3.jpg" class="image_3" style="display:none" alt="" />
+                <img src="images/bigs/4.jpg" class="image_4" style="display:none" alt="" />
+            </div>
+
+            <div class="thumbnail">
+                <div class="thumb">
+                    <a href="#" rel="1">
+                        <img src="images/thumbs/1.jpg" id="thumb_1" alt="" />
+                    </a>
+                </div>
+                <div class="thumb">
+                    <a href="#" rel="2">
+                        <img src="images/thumbs/2.jpg" id="thumb_2" alt="" />
+                    </a>
+                </div>
+                <div class="thumb">
+                    <a href="#" rel="3">
+                        <img src="images/thumbs/3.jpg" id="thumb_3" alt="" />
+                    </a>
+                </div>
+                <div class="thumb last">
+                    <a href="#" rel="4">
+                        <img src="images/thumbs/4.jpg" id="thumb_4" alt="" />
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="clear"></div>
+
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </section>
+</body>
+</html>

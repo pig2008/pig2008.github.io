@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title> jQuery Simple Image Gallery </title>
+</head>
+<body>
+
+<section>
+  <div id="gallery">
+	<div id="feature"><img src="http://farm1.staticflickr.com/148/369304411_917e112a9d.jpg" border="0"/></div>
+	  <a href="#" rel="http://farm1.staticflickr.com/148/369304411_917e112a9d.jpg" class="galImg"><img src="http://farm1.staticflickr.com/148/369304411_917e112a9d_s.jpg" class="thumb" border="0"/></a>
+
+	  <a href="#" rel="http://farm4.staticflickr.com/3174/2646497124_3766a93c40.jpg" class="galImg"><img src="http://farm4.staticflickr.com/3174/2646497124_3766a93c40_s.jpg" class="thumb" border="0"/></a>
+
+	  <a href="../../images/small/1_big.png" rel="http://farm3.staticflickr.com/2525/4155192992_208137e337.jpg" class="galImg"><img src="../../images/small/1_small.png" class="thumb" border="0"/></a>
+	</div>
+
+	</section>
+
+	<footer>
+		<p>Copyright © 2012 Eric Binnion</p>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			$(".galImg").click(function() {
+				var image = $(this).attr("rel");
+				$('#feature').fadeOut('slow');
+				$('#feature').html('<img src="' + image + '"/>');
+				$('#feature').fadeIn('slow');
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#mainNav {
+		margin-bottom: 1em;
+	}
+#mainNav ul ul { display: none;}
+#mainNav ul li:hover > ul {  display: block;}
+#mainNav ul {
+	background: rgb(206, 246, 254);
+	list-style: none;
+	position: relative;
+	display: list-item;
+
+}
+#mainNav ul:after {
+     content: "";
+	 clear: both;
+	 display: block;
+}
+#mainNav ul li {
+    float: left;
+	text-align:center;
+	width:16.26%;
+	border: solid 1px #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+}
+#mainNav ul li:last-child {
+	border-right: none;
+}
+#mainNav ul li:hover {
+    background: rgb(25, 211, 238);
+}
+#mainNav ul li:hover a {
+    color: #fff;
+}
+#mainNav ul li a {
+    display: block; 
+	color: #757575; 
+	text-decoration: none;
+}
+#mainNav ul ul {
+	padding: 0;
+    position: absolute; top: 100%;
+	border:none;	
+}
+#mainNav ul ul li {
+	color: black;
+    display:list-item;
+    float: right;     
+    position: relative;
+	width:100%;	
+	min-width:90px;
+	
+}
+#mainNav ul ul li a: {
+    padding-top: 15px ;
+	color:#000; 
+	background: rgb(206, 246, 254);
+	width:inherit;	 
+}   
+#mainNav ul ul li a:link {color:#757575;}
+#mainNav ul ul li a:hover {
+	background: rgb(25, 211, 238);
+	color: #fff;	
+}
+	
