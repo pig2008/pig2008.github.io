@@ -609,9 +609,10 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 /*******Mobile Aside Styles********* Mobile Aside Styles********Mobile Aside Styles************/
 aside {
 	display: block;
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
+	margin-bottom: .5em;
 }
 #playlist li {
 	border-bottom: dashed 1px;
