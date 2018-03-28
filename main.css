@@ -622,6 +622,7 @@ aside {
 	overflow: hidden;	
 }
 #playlist,a:link {text-decoration: none;}
+#playlist li:last-child {border-bottom: none;}
 #playlist li a:first-of-type {background-image: no-repeat;}
 #playlist a {    
     padding-left: 20px;	
@@ -640,7 +641,7 @@ aside {
 	margin-right: 7px;
 }
 audio {
-	width: 90%;
+	width: 100%;
 	height: 25px;
 	display: block;
 	margin: .5em auto;	
@@ -1309,6 +1310,7 @@ aside {
 	word-wrap: break-word;	
 	overflow: hidden;	
 }
+#playlist li:last-child {border-bottom: none;}
 #playlist,a:link {text-decoration: none;}
 #playlist a {    
     padding-left: 20px;	
@@ -2096,7 +2098,8 @@ aside {
 	background-repeat: no-repeat;
 }
 audio {
-	width: 100%;
+	float: right;
+	width: 25.8%;
 	display: block;
 	height: 50px;
 }
