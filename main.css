@@ -612,7 +612,7 @@ aside {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: .5em;
+	clear: both;
 }
 #playlist li {
 	border-bottom: dashed 1px;
