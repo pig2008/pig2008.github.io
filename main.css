@@ -612,8 +612,10 @@ aside {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	clear: both;
 }
+aside, #playlist {
+		clear: both;
+	}
 #playlist li {
 	border-bottom: dashed 1px;
 	display: block;
