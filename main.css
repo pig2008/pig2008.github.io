@@ -28,7 +28,7 @@ body {
 	font: 100% Cantarell, Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 	position: relative;
-	background: rgb(255, 255, 255);
+	background: rgba(25, 211, 238, .2);
 	color: rgb(76, 67, 65);
 	font-weight: normal;
 	font-style: normal;
@@ -127,10 +127,8 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 /******Nav Styles************Nav Styles**Mobile***Nav Styles************Nav Styles******/
 #mainNav {
 	width: auto;
-	margin: 0;
-	margin-bottom: 0;
-	background: white;
-	overflow: hidden
+	height: auto;
+	margin-bottom: .5em	
 }
 #mainNav li {
 	margin: 0;
@@ -205,11 +203,9 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	
 /*********Banner Styles***************Banner Styles***Mobile*****Banner Styles**************/
 .banner {
-	clear: both;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	margin-bottom: .5em;
 }
 .banner img {
 	width: 100%;
@@ -258,7 +254,6 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	border: 2px solid rgb(25, 211, 238);
 }
 #content2 {
-	width: 90%;
 	padding: 0 1em;	
 	background: rgba(220,41,30,.2);
 }
@@ -294,7 +289,6 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	font-size: 1.5em;
 }
 #content3 {
-	width: 90%;
 	padding: 0 1em;
 	margin: 0 auto;
 	text-align: justify;
@@ -326,7 +320,6 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 }
 #content4 {
 	height: auto;
-	width: 90%;
 	padding: 0 1em;
 	background: rgba(25, 211, 238, .2);
 	border-bottom: 2px solid #FFF;
@@ -350,7 +343,6 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	margin-bottom: .5em;
 }
 #content5 {	
-	width: 90%;
 	background: rgba(25, 211, 238, .2);
 	margin: 0 auto;
 }
@@ -397,6 +389,7 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	font-size: 1em;
 	line-height: 50px;
 	margin-right: 2em;
+	color: white;
 }
 #webTicker li a:hover {
 	background: url(images/cd1.png) no-repeat scroll left center transparent;
@@ -612,10 +605,8 @@ aside {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
+	margin-bottom: .5em;
 }
-aside, #playlist {
-		clear: both;
-	}
 #playlist li {
 	border-bottom: dashed 1px;
 	display: block;
@@ -624,8 +615,8 @@ aside, #playlist {
 	word-wrap: break-word;	
 	overflow: hidden;	
 }
-#playlist,a:link {text-decoration: none;}
 #playlist li:last-child {border-bottom: none;}
+#playlist,a:link {text-decoration: none;}
 #playlist li a:first-of-type {background-image: no-repeat;}
 #playlist a {    
     padding-left: 20px;	
@@ -1070,6 +1061,7 @@ header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-
 	float: left;
 	font-size: 1.2em;
 	line-height: 50px;
+	color: white;
 	margin-right: 2em;
 }
 #webTicker li a:hover {
@@ -1555,8 +1547,8 @@ header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-
 #mainNav {
 	background: rgb(206, 246, 254);
 	height: auto;
-	border-bottom: 2px solid white; /*moves the home link from the left side */
-	margin-bottom: 1em;
+	 /*moves the home link from the left side */
+	margin: 1em 0;
 }
 #mainNav ul {list-style: none;}
 #mainNav li{
@@ -1576,7 +1568,7 @@ header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-
 }
 #mainNav li a:hover {
     background: rgb(25, 211, 238);		/* visited link */
-	color: #7B798F;
+	color: #fff;
 }
 #mainNav h3:hover {color: #7B798F;}
 #mainNav a:active {color: blue;}
@@ -1627,19 +1619,18 @@ header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-
 .banner {
 	width: 100%;
 	height: auto;
-	border-bottom: 2px solid #FFF;
-	margin-bottom: 1em;
 }
 .banner img {
 	width: 100%;
 	height: auto;
+	margin-bottom: 1em;
 }
 	
 	/*Content Desktop Styles */	
 #content {
 	height: auto;
-	background: rgba(25, 211, 238, .2);
 	width: 100%;
+	margin-bottom: 1em;
 }
 #content1 {
 	float: left;
