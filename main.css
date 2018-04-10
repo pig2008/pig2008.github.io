@@ -79,6 +79,7 @@ body {
 	min-width: 320px;
 	max-width: 480px;
 }
+    footer h1 { text-transform: capitalize;}
 	
 /****** Mobile Header Styles************Mobile Header Styles************ Mobile Header Styles************Mobile Header Styles******/
 header {
@@ -121,7 +122,9 @@ header .facebook { background-position: 0 -24px;}
 header a:hover.facebook { background: url(images/social-sm-hov.png) no-repeat 0 -24px;}
 header .instagram { background-position: 0 -48px;}
 header a:hover.instagram { background: url(images/social-sm-hov.png) no-repeat 0 -48px;}
-header .soundcloud { background-position: 0 -0;}
+header .twitter { background-position: 0 -72px;}
+header a:hover.twitter  { background: url(images/social-sm-hov.png) no-repeat 0 -72px;}
+header .soundcloud { background-position: 0 0;}
 header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat 0 0;}
 
 /******Nav Styles************Nav Styles**Mobile***Nav Styles************Nav Styles******/
@@ -753,6 +756,7 @@ footer {
 }
 footer ul {text-align: center;}
 footer li {display: inline-block;}
+footer p {text-align: center;}
 footer a {	
 	display: block;
 	text-indent: -99999px;
@@ -769,7 +773,9 @@ footer .facebook { background-position: 0 -24px;}
 footer a:hover.facebook { background: url(images/social-sm-hov.png) no-repeat 0 -24px;}
 footer .instagram { background-position: 0 -48px;}
 footer a:hover.instagram { background: url(images/social-sm-hov.png) no-repeat 0 -48px;}
-footer .soundcloud { background-position: 0 -0;}
+footer .twitter { background-position: 0 -72px;}
+footer a:hover.twitter  { background: url(images/social-sm-hov.png) no-repeat 0 -72px;}
+footer .soundcloud { background-position: 0 0;}
 footer a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat 0 0;}
 }
 
@@ -824,6 +830,8 @@ header .facebook { background-position: 0 -45px;}
 header a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
 header .instagram { background-position: 0 -90px;}
 header a:hover.instagram { background: url(images/social-header-hover.png) no-repeat 0 -90px;}
+header .twitter { background-position: 0 -135px;}
+header a:hover.twitter  { background: url(images/social-header-hover.png) no-repeat 0 -135px;}
 header .soundcloud { background-position: 0 -0;}
 header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-repeat 0 0;}
 
@@ -1478,6 +1486,8 @@ footer .facebook { background-position: 0 -45px;}
 footer a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
 footer .instagram { background-position: 0 -90px;}
 footer a:hover.instagram { background: url(images/social-header-hover.png) no-repeat 0 -90px;}
+footer .twitter { background-position: 0 -135px;}
+footer a:hover.twitter  { background: url(images/social-header-hover.png) no-repeat 0 -135px;}
 footer .soundcloud { background-position: 0 -0;}
 footer a:hover.soundcloud  { background: url(images/social-header-hover.png) no-repeat 0 0;}
 }
@@ -1520,7 +1530,7 @@ header h2 {
 	/* header social nav */
 .headerSocialNav {
 	float: right;
-	width: 20%;
+	width: 28%;
 	margin-right: 3.9%;
 }
 header a {
@@ -1540,8 +1550,10 @@ header .facebook { background-position: 0 -45px;}
 header a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
 header .instagram { background-position: 0 -90px;}
 header a:hover.instagram { background: url(images/social-header-hover.png) no-repeat 0 -90px;}
+header .twitter { background-position: 0 -135px;}
+header a:hover.twitter  { background: url(images/social-header-hover.png) no-repeat 0 -135px;}
 header .soundcloud { background-position: 0 -0;}
-header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-repeat 0 0;}
+header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-repeat 0 -0;}
 
 /*****Desktop Nav Styles********Desktop Nav Styles*******Desktop Nav Styles************/
 #mainNav {
@@ -2234,8 +2246,13 @@ footer {
 	float: right;
 	width: 21%;
 }
+footer h1 {
+    text-align: right;
+    text-transform: capitalize;
+    margin-right: 18%;
+    }
 footer a {
-	float: left;
+	float: right;
 	display: block;
 	text-indent: -99999px;
 	color: rgb(255, 255, 255);
@@ -2251,6 +2268,8 @@ footer .facebook { background-position: 0 -45px;}
 footer a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
 footer .instagram { background-position: 0 -90px;}
 footer a:hover.instagram { background: url(images/social-header-hover.png) no-repeat 0 -90px;}
+footer .twitter { background-position: 0 -135px;}
+footer a:hover.twitter  { background: url(images/social-header-hover.png) no-repeat 0 -135px;}
 footer .soundcloud { background-position: 0 -0;}
-footer a:hover.soundcloud  { background: url(images/social-header-hover.png) no-repeat 0 0;}
+footer a:hover.soundcloud  { background: url(images/social-header-hover.png) no-repeat 0 -0;}
 }
