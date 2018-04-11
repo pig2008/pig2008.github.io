@@ -48,6 +48,14 @@ header h1 {
 }
 /*nav styles*/
 ul {list-style: none;}
+
+/*sidebar*/
+aside h3 {
+	font-size: 120%;
+	font-weight: bold;
+	color: white;
+}
+
 .clearfix:before,
 .clearfix:after {
 	content: " "; /* 1 */
@@ -116,7 +124,6 @@ header a {
 	width: 24px;
 	margin: .2em;
 	background: url(images/social-sm.png) no-repeat;
-	border: 2px solid rgb(255, 255, 255);
 }
 header .facebook { background-position: 0 -24px;}
 header a:hover.facebook { background: url(images/social-sm-hov.png) no-repeat 0 -24px;}
@@ -218,26 +225,26 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	width: 100%;
 	background: rgba(25, 211, 238, .2);
 }
-#content1 {
+#drum-content {
 	width: 90%;
 	padding: 0 1em;
 	height: auto;
 	margin: 0 auto;	
 	background: rgba(255,248,61,.2)
 }
-#content1 h1 {
+#drum-content h1 {
 	text-align: center;
 	font-size: 1.2em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content1 h2 {
+#drum-content h2 {
 	font-size: 1em;
 	font-weight: bold;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content1 p {
+#drum-content p {
 	font-size: .8em;
 	margin-bottom: .8em;
 }
@@ -256,65 +263,65 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 	margin-bottom: 1em;
 	border: 2px solid rgb(25, 211, 238);
 }
-#content2 {
+#dubstep-content {
 	padding: 0 1em;	
 	background: rgba(220,41,30,.2);
 }
-#content2 h1 {
+#dubstep-content h1 {
 	font-size: 1.2em;
 	text-align: center;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content2 h2 {
+#dubstep-content h2 {
 	font-size: 1em;
 	font-weight: bold;
 	text-align: center;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content2 p {
+#dubstep-content p {
 	font-size: .8em;
 	margin-bottom: .8em;
 }
-#content2 img.ven {
+#dubstep-content img.ven {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
 	height: 135px;
 	border: 2px solid rgb(25, 211, 238);
 }
-#content2 ul li {
+#dubstep-content ul li {
 	list-style-type: none;
 	text-align: center;
 	text-transform: capitalize;
 	color: #FFF;	
 	font-size: 1.5em;
 }
-#content3 {
+#house-content {
 	padding: 0 1em;
 	margin: 0 auto;
 	text-align: justify;
 	background: rgba(83,218,63,.2);
 	margin-bottom: 1em;
 } 
-#content3 h1 {
+#house-content h1 {
 	font-size: 1.2em;
 	text-align: center;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content3 h2 {
+#house-content h2 {
 	font-size: 1em;
 	font-weight: bold;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content3 p {
+#house-content p {
 	font-size: .8em;
 	margin-bottom: .8em;
 }
-#content3 img {
+#house-content img {
 	display: block;
 	width: 150px;
 	height: 150px;
@@ -643,9 +650,9 @@ audio {
 	display: block;
 	margin: .5em auto;	
 }
-.side1 {background: rgba(255,248,61,.8);}
-.side2 {background: rgba(83,218,63,.8);}
-.side3 {
+.drum-sidebar {background: rgba(255,248,61,.8);}
+.house-sidebar {background: rgba(83,218,63,.8);}
+.dubstep-sidebar {
 	clear: both;
 	background: rgba(220,41,30,.8);
 }
@@ -767,7 +774,6 @@ footer a {
 	width: 24px;
 	margin: .2em;
 	background: url(images/social-sm.png) no-repeat;
-	border: 2px solid rgb(255, 255, 255);
 }
 footer .facebook { background-position: 0 -24px;}
 footer a:hover.facebook { background: url(images/social-sm-hov.png) no-repeat 0 -24px;}
@@ -824,7 +830,6 @@ header a {
 	width: 45px;
 	margin: .2em;
 	background: url(images/social-header.png) no-repeat;
-	border: 2px solid rgb(255, 255, 255);
 }
 header .facebook { background-position: 0 -45px;}
 header a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
@@ -914,64 +919,64 @@ header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-
 	background: rgba(25, 211, 238, .2);
 	padding: 1em  3.9%;
 }
-#content1 {
+#drum-content {
 	width: 92.2%;
 	padding: 1em 3.9%;
 	margin: 0 auto;	
 	background: rgba(255,248,61,.2)
 }
-#content1 h1 {
+#drum-content h1 {
 	font-size: 1.5em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content1 h2 {
+#drum-content h2 {
 	font-size: 1.2em;
 	text-transform: capitalize;
 	margin-bottom: 1em; 
 }
-#content1 p {margin-bottom: 1em;}
-#content2 {
+#drum-content p {margin-bottom: 1em;}
+#dubstep-content {
 	width: 92.2%;
 	padding: 1em 3.9%;
 	margin: 0 auto;	
 	background: rgba(220,41,30,.2);
 }
-#content2 h1 {
+#dubstep-content h1 {
 	font-size: 1.5em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content2 h2 {
+#dubstep-content h2 {
 	font-size: 1.2em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content2 p {margin-bottom:1em;}
-#content2 ul li {
+#dubstep-content p {margin-bottom:1em;}
+#dubstep-content ul li {
 	list-style-type: none;
 	text-align: center;
 	text-transform: capitalize;
 	color: #FFF;	
 	font-size: 2em;
 }
-#content3 {
+#house-content {
 	width: 92.2%;
 	padding: 1em 3.9%;
 	text-align: justify;
 	background: rgba(83,218,63,.2);
 }
-#content3 h1 {
+#house-content h1 {
 	font-size: 1.5em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content3 h2 {
+#house-content h2 {
 	font-size: 1.2em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content3 p {margin-bottom:1em;}
+#house-content p {margin-bottom:1em;}
 #content4 {
 	height: auto;
 	width: 92.2%;	
@@ -1338,9 +1343,12 @@ audio {
 	display: block;
 	margin: .5em auto;
 }
-.side1 {background: rgba(255,248,61,.8);}
-.side2 {background: rgba(83,218,63,.8);}
-.side3 {background: rgba(220,41,30,.8);}
+.drum-sidebar {background: rgba(255,248,61,.8);}
+.house-sidebar {background: rgba(83,218,63,.8);}
+.dubstep-sidebar {
+	background: rgba(220,41,30,.8);
+	color: white;
+}
 .side4 {
 	height: auto;
 	width: 92.2%;	
@@ -1480,7 +1488,6 @@ footer a {
 	width: 45px;
 	margin: 0 .5em;
 	background: url(images/social-header.png) no-repeat;
-	border: 2px solid rgb(255, 255, 255);
 }
 footer .facebook { background-position: 0 -45px;}
 footer a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
@@ -1544,7 +1551,6 @@ header a {
 	width: 45px;
 	margin: 60px 1em;
 	background: url(images/social-header.png) no-repeat;
-	border: 2px solid rgb(255, 255, 255);
 }
 header .facebook { background-position: 0 -45px;}
 header a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
@@ -1644,65 +1650,65 @@ header a:hover.soundcloud  { background: url(images/social-header-hover.png) no-
 	width: 100%;
 	margin-bottom: 1em;
 }
-#content1 {
+#drum-content {
 	float: left;
 	width: 66%;
 	padding: 0 3.9%;
 	background: rgba(255,248,61,.2);
 }
-#content1 h1 {
+#drum-content h1 {
 	font-size: 2em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content1 h2 {
+#drum-content h2 {
 	font-size: 1.5em;
 	margin-bottom: 1em;
 }
-#content1 p {
+#drum-content p {
 	margin-bottom: 1em; 
 }
-#content2 {
+#dubstep-content {
 	float: left;
 	width: 66%;
 	padding: 0 3.9%;
 	text-align: justify;	
 	background: rgba(220,41,30,.2);
 }
-#content2 h1 {
+#dubstep-content h1 {
 	font-size: 2em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content2 h2 {
+#dubstep-content h2 {
 	font-size: 1.5em;
 	margin-bottom: 1em;
 }
-#content2 p {margin-bottom: 1em;}
-#content2 ul li {
+#dubstep-content p {margin-bottom: 1em;}
+#dubstep-content ul li {
 	list-style-type: none;
 	text-align: center;
 	text-transform: capitalize;
 	color: #FFF;	
 	font-size: 4em;
 }
-#content3 {
+#house-content {
 	float: left;
 	width: 66%;
 	padding: 0 3.9%;
 	text-align: justify;
 	background: rgba(83,218,63,.2);
 }
-#content3 h1 {
+#house-content h1 {
 	font-size: 2em;
 	text-transform: capitalize;
 	margin-bottom: 1em;
 }
-#content3 h2 {
+#house-content h2 {
 	font-size: 1.5em;
 	margin-bottom: 1em;
 }
-#content3 p {margin-bottom: 1em;}
+#house-content p {margin-bottom: 1em;}
 #content4 {
 	height: auto;
 	padding: 0 3.9%;
@@ -2083,7 +2089,8 @@ aside {
 	border-bottom: dashed 1px;
 	display: block;	
 	width: 187px;
-	word-wrap: break-word;	
+	word-wrap: break-word;
+	color: white;
 	overflow: hidden;	
 }
 #playlist li:last-child {border: none;}
@@ -2095,6 +2102,7 @@ aside {
     background-image: url(images/playlist-sprite.png);
     background-position: 0 0px;
     background-repeat: no-repeat;
+	color: white;
 }
 #playlist a:hover {	
 	padding-left: 20px;	
@@ -2109,9 +2117,13 @@ audio {
 	display: block;
 	height: 50px;
 }
-.side1 {background: rgba(255,248,61,.8);}
-.side2 {background: rgba(83,218,63,.8);}
-.side3 {background: rgba(220,41,30,.8);}
+.drum-sidebar {background: rgba(255,248,61,.8);}
+.house-sidebar {background: rgba(83,218,63,.8);}
+.dubstep-sidebar {
+	background: rgba(220,41,30,.8);
+	color: white;
+}
+
 .side4 {background: rgba(25, 211, 238, .2);}
 .side4 h2 {
 	font-size: 1.2em;
@@ -2244,12 +2256,12 @@ footer {
 }
 .footerSocialNav {
 	float: right;
-	width: 21%;
+	width: 28%;
 }
 footer h1 {
     text-align: right;
     text-transform: capitalize;
-    margin-right: 18%;
+    margin-right: 28%;
     }
 footer a {
 	float: right;
@@ -2262,7 +2274,6 @@ footer a {
 	width: 45px;
 	margin: 0 1em;
 	background: url(images/social-header.png) no-repeat;
-	border: 2px solid rgb(255, 255, 255);
 }
 footer .facebook { background-position: 0 -45px;}
 footer a:hover.facebook { background: url(images/social-header-hover.png) no-repeat 0 -45px;}
