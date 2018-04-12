@@ -55,7 +55,7 @@ aside h3 {
 	font-weight: bold;
 	color: white;
 }
-#playlist li a, #playlist li {color:  wh} 
+#playlist li a, #playlist li {color:  white;} 
 
 .clearfix:before,
 .clearfix:after {
