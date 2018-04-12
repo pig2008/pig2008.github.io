@@ -55,6 +55,7 @@ aside h3 {
 	font-weight: bold;
 	color: white;
 }
+#playlist li a, #playlist li {color:  wh} 
 
 .clearfix:before,
 .clearfix:after {
@@ -613,10 +614,12 @@ header a:hover.soundcloud  { background: url(images/social-sm-hov.png) no-repeat
 aside {
 	display: block;
 	width: 100%;
+	height: auto;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: .5em;
 }
+#playlist ul {margin-bottom: .5em;}
 #playlist li {
 	border-bottom: dashed 1px;
 	display: block;
@@ -648,7 +651,8 @@ audio {
 	width: 100%;
 	height: 25px;
 	display: block;
-	margin: .5em auto;	
+	clear: both;
+	margin: 0 auto;	
 }
 .drum-sidebar {background: rgba(255,248,61,.8);}
 .house-sidebar {background: rgba(83,218,63,.8);}
@@ -2090,7 +2094,6 @@ aside {
 	display: block;	
 	width: 187px;
 	word-wrap: break-word;
-	color: white;
 	overflow: hidden;	
 }
 #playlist li:last-child {border: none;}
@@ -2102,7 +2105,6 @@ aside {
     background-image: url(images/playlist-sprite.png);
     background-position: 0 0px;
     background-repeat: no-repeat;
-	color: white;
 }
 #playlist a:hover {	
 	padding-left: 20px;	
