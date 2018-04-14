@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dubstep</title>
 <link href="main.css" rel="stylesheet" media="screen, projection">
+<link href="css/photoswipe.css" rel="stylesheet" media="screen, projection">
+
 </head>
 <body>
 
@@ -53,22 +55,18 @@
  
 <section id="dubstep-content" class="clearfix">
 	<h1> Dubstep Nights</h1> 
-	<section class="dubImage"> 
-  		<img id="largeImages" src="images/small/1_large.png"/>
-  		  
-		
-	</section>
-	<ul id="smallImages">
-		<li class="dubThumbs"><img src="images/big/2_big.png" width="550" height="366" alt="pic3" /></li>
-		<li class="dubThumbs dubThuRgt" ><img src="images/big/4_big.png" width="550" height="366" alt="pic4" /></li>
-		<li class="dubThumbs"><img src="images/big/5_big.png" width="550" height="366" alt="pic5" /></li>
-		<li class="dubThumbs dubThuRgt" ><img src="images/big/6_big.png" width="550" height="366" alt="pic6" /></li>
-		<li class="dubThumbs"><img src="images/big/7_big.png" width="550" height="366" alt="pic7" /></li>
-		<li class="dubThumbs dubThuRgt" ><img src="images/big/8_big.png" width="550" height="366" alt="pic8" /></li>
-		<li class="dubThumbs"><img class="dubThumbs" src="images/big/9_big.png" width="550" height="366" alt="pic9" /></li>
-		<li class="dubThumbs dubThuRgt" ><img src="images/big/10_big.png" width="550" height="366" alt="pic10" /></li>
-		<li class="dubThumbs"><img src="images/big/11_big.png" width="550" height="366" alt="pic11" /></li>
-	</ul>
+	<div class="photos">
+		<ul id="photoGallery">
+		<li><a href="images/big/1_big.png" title="picture 1"> <img src="images/big/1_sm.png" alt="pict 1"></a></li>
+		<li><a href="images/big/2_big.png" title="picture 1"> <img src="images/big/2_sm.png" alt="pict 1"></a></li>	
+		<li><a href="images/big/3_big.png" title="picture 1"> <img src="images/big/3_sm.png" alt="pict 1"></a></li>
+		<li><a href="images/big/4_big.png" title="picture 1"> <img src="images/big/4_sm.png" alt="pict 1"></a></li>
+		<li><a href="images/big/5_big.png" title="picture 1"> <img src="images/big/5_sm.png" alt="pict 1"></a></li>
+		<li><a href="images/big/6_big.png" title="picture 1"> <img src="images/big/6_sm.png" alt="pict 1"></a></li>
+		<li><a href="images/big/7_big.png" title="picture 1"> <img src="images/big/7_sm.png" alt="pict 1"></a></li>	
+		<li><a href="images/big/8_big.png" title="picture 1"> <img src="images/big/8_sm.png" alt="pict 1"></a></li>	
+	  </ul>
+	</div>
 </section> 
 
  <aside class="dubstep-sidebar">
@@ -107,6 +105,14 @@
     
 <script src="jquery-3.2.1.min.js"></script>
 <script src="script.js"> </script>
-
+<script src="script/klass.min.js"></script>
+<script src="script/code.photoswipe-3.0.5.js"></script>
+<script type="text/javascript">
+//create the photo gallery
+$(document).ready(function(){
+	  $(".galleryTitle").lettering();
+	  var myPhotoSwipe = $("#photoGallery a").photoSwipe({});
+});	
+</script>
 </body>
 </html>
