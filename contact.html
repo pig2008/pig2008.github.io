@@ -57,8 +57,8 @@
       <legend>Personal Information</legend>
       <ul class="formList">
       <li>
-        <label for="name" class="text">Name</label>
-        <input type="text" name="name" id="name" tabindex="10">
+        <label for="name2" class="text">Name</label>
+        <input type="text" name="name2" id="name2" tabindex="10">
       </li>
       <li>
         <label for="email" class="text">Email</label>
@@ -412,6 +412,30 @@
 
 <script src="jquery-3.2.1.min.js"></script>
 <script src="script.js"> </script>
+<script type="text/javascript">
+'use strict';
+
+$(document).ready(function () {
+
+
+	$('#name2').on('click', function nameClick() {
+		console.log('You clicked the name field!');
+		
+		var $this = $(this);
+		$this.css('background-color', '#e99');
+	});
+
+	
+	/*
+	$('#frmContact').on('submit', function(event){
+		event.preventDefault();
+		
+		console.log('The form will not submit');
+	});
+	*/
+});
+</script>
+
 
 </body>
 </html>
