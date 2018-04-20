@@ -105,13 +105,18 @@
     
 <script src="jquery-3.2.1.min.js"></script>
 <script src="script.js"> </script>
-<script src="script/klass.min.js"></script>
-<script src="script/code.photoswipe-3.0.5.js"></script>
+<script src="script/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
 //create the photo gallery
 $(document).ready(function(){
-	  $(".galleryTitle").lettering();
-	  var myPhotoSwipe = $("#photoGallery a").photoSwipe({});
+	  $("#photoGallery").find("a").colorbox({
+		  'rel': 'gal',
+		  'max-width': '50%',
+		  'scalePhotos': true
+		
+	  });
+	
+		
 });	
 </script>
 </body>
