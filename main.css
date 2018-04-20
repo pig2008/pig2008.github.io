@@ -2143,7 +2143,9 @@ ul.newsticker li {
 	position: relative;
 	float: none;
 }
-	
+#photoGallery figcaption {
+  display: none;
+}	
 /******Desktop Aside Styles********Desktop Aside Styles*******Desktop Aside Styles*****/
 aside {
 	float: right;
