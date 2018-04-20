@@ -6,6 +6,7 @@
 <title>Dubstep</title>
 <link href="main.css" rel="stylesheet" media="screen, projection">
 <link href="css/photoswipe.css" rel="stylesheet" media="screen, projection">
+<link href="images/default-skin.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -105,16 +106,12 @@
     
 <script src="jquery-3.2.1.min.js"></script>
 <script src="script.js"> </script>
-<script src="script/jquery.colorbox-min.js"></script>
+<script src="script/photoswipe.min.js"></script>
+<script src="script/photoswipe-ui-default.min.js"></script>
 <script type="text/javascript">
 //create the photo gallery
 $(document).ready(function(){
-	  $("#photoGallery").find("a").colorbox({
-		  'rel': 'gal',
-		  'max-width': '50%',
-		  'scalePhotos': true
-		
-	  });
+	var myPhotoSwipe = $("#photoGallery").find("a").photoSwipe({});
 	
 		
 });	
