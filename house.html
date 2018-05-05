@@ -101,8 +101,25 @@
     </ul>
  </footer>
 <script src="jquery-3.2.1.min.js"></script>
-<script src="script.js"> </script>
 
+<script type="text/javascript">
+//create the photo gallery
+$(document).ready(function(){
+    $("#videolist li").on("click", function() {
+        $("#videoarea").attr({
+            "src": $(this).attr("movieurl"),
+            "poster": "",
+            "autoplay": "autoplay"
+        });
+    });
+    $("#videoarea").attr({
+        "src": $("#videolist li").eq(0).attr("movieurl"),
+        "poster": $("#videolist li").eq(0).attr("moviesposter")
+    });
+});
+	
+</script>
+<script src="script.js"> </script>
 
 
 </body>

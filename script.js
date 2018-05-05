@@ -144,7 +144,7 @@ function lgMenu() {
 }
 $(function(){ $('#webTicker').webTicker({
 	height:'48px'});
-			});
+});
 var audio;
 var playlist;
 var tracks;
